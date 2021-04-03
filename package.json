@@ -1,11 +1,15 @@
 {
   "name": "ant-layout",
-  "version": "0.1.0",
+  "version": "3.19.2",
   "private": true,
   "dependencies": {
+    "@angular/cdk": "^9.2.4",
+    "@angular/material": "^9.2.4",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
+    "antd": "^4.14.0",
+    "node-sass": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
