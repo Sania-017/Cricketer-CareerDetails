@@ -1,8 +1,13 @@
 import React from 'react';
 import {Drawer} from 'antd';
-const CareerDetail = () => {
+const CareerDetail = ({player, visible, onClose }) => {
     return(
-        <Drawer>
+        <Drawer
+        destroyOnClose
+        title = {player}
+        visible = {visible}
+        width = {640}
+        onClose= {onClose}>
 
         </Drawer>
     )
