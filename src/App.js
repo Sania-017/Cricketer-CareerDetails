@@ -21,7 +21,7 @@ function App() {
   }
 
   const ViewProfileButton = ({ name }) => {
-    return <Button type='dashed' style={{ float: 'right' }} onClick={()=>onSelect(name)}> View full Profile  </Button>
+    return <Button type='dashed' style={{ float: 'right' }} onClick={()=>onSelect(name)}> View full Profile >>  </Button>
   }
   const onClose = () => setVisible(false);
 
